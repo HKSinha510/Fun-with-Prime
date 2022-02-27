@@ -1,9 +1,10 @@
-from turtle import bgcolor, forward, hideturtle, left, speed, getscreen, screensize, title
+from turtle import bgcolor, forward, hideturtle, left, speed, getscreen, screensize, title, pencolor
 from tkinter import *
 from PIL import Image, EpsImagePlugin
 
 def init():
-    bgcolor()
+    #bgcolor("black")
+    #pencolor("white")
     title("Prime Spiral")
     screensize(2000, 1500)
     hideturtle()
